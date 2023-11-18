@@ -1,0 +1,203 @@
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	position:relative;
+	transition:all .4s ease-in-out;
+}
+
+a,button{
+	cursor:pointer;
+}
+
+.allColumns{
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(0,auto));
+	gap:1rem;
+	align-items:center;
+}
+.allColumns span h1{
+	color: #004c4c;
+}
+
+.allRows{
+	display:grid;
+	grid-template-rows:repeat(auto-fit,minmax(5,auto));
+	gap:1rem;
+	align-items:center;
+	
+}
+
+.cell{
+	border:1px solid #66b2b2;
+	/* margin:auto; */
+	padding:1rem;
+	border-radius: 6px;
+	
+}
+.mobileRecharge .mobileRecharge_Button{
+	padding: 10px 16px;
+	background-color:#66b2b2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	cursor:pointer;
+}
+.cashIn .cashIn_Button{
+	padding: 10px 16px;
+	background-color:#66b2b2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	cursor:pointer;
+}
+.cashOut .cashOut_Button{
+	padding: 10px 16px;
+	background-color:#66b2b2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	cursor:pointer;
+}
+.popUp{
+	padding: 20px 20px;
+	border: 1 px solid gray;
+	background-color: #66b2b2;
+	color: #fff;
+	width: 200px;
+	height: auto;
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	cursor: pointer;
+}
+.popUp input{
+	border: none;
+	padding: 8px 8px;
+	outline: none;
+	margin-bottom: 10px;
+	border: 1px solid #66b2b2;
+	border-radius: 6px;
+}
+.popUp button{
+	display: block;
+	border: none;
+	padding: 8px 16px;
+	outline: none;
+	margin-bottom: 6px;
+	border: 1px solid #66b2b2;
+	border-radius: 6px;
+	margin: auto;
+	background-color: #b2d8d8;
+	color: #004c4c;
+	
+}
+.popUp button:hover{
+	cursor: pointer;
+	background-color: tomato;
+	color: #fff;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.popUp h3{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #004c4c;
+}
+.popUp h4{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #004c4c;
+}
+.brand{
+	padding: 8px 8px;
+	background-color: #66b2b2;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.totalBalance span{
+	color: #004c4c;
+	font-size: 24px;
+	font-weight: 600;
+}
+.transaction span{
+	color: #004c4c;
+}
+
+
+.fullPage{
+	margin:1rem auto;
+	height:2rem;
+	width:80%;
+}
+
+div{
+	color: red;
+	margin-bottom: 10px;
+}
+
+p{
+	color: red;
+	margin-bottom: 10px;
+}
+.susseges h1{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* cashOutcss */
+
+h3{
+	font-size:0px;
+}
+
+
+/* flxilode  */
+
+p{
+	color:brown !important;
+	
+}
+
+.popUp mr{
+	display: block !important;
+	color: #004c4c;
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: 800;
+}
+
+h5{
+	margin-bottom:10px;
+	cursor:pointer;
+}
+h6{
+	margin-bottom:10px;
+}
+span{
+	margin-bottom:10px;
+}
+.Rebutton{
+	padding: 8px 12px;
+	background-color:greenyellow;
+	color:black;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+}
+
+.popUp worng{
+	display: block !important;
+	color:red;
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}

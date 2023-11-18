@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="fullPage">
+        <header class="allColumns">
+           <span class="brand"><h1>Transfer Money</h1></span>
+        </header>
+    
+        <section class="theApp allRows">
+    
+            <div class="columnTitles allColumns">
+                
+                <span class="totalBalance">
+                    <span class="balanceLabel">My Balance is : </span>
+                    <span class="balanceCount">
+                        <span class="currency">$</span>
+                        <span class="count" style="color:maroon; font-weight: bold; font-size: 28px;">500</span>
+                    </span>
+                </span>
+                
+                <span class="cashIn ">
+                    <button class="cashIn_Button">Cash In</button>
+                    
+                </span>
+                <span class="cashOut ">
+                    <button class="cashOut_Button">Cash Out</button>
+                    
+                    
+                </span>
+                <span class="mobileRecharge ">
+                    <button class="mobileRecharge_Button">Mobile Recharge</button>
+                    
+                </span>
+                
+            </div>
+    
+            <div class="transactionData allRows">
+                <div class="transaction allColumns" >
+                    <span class="newTransactionID cell"></span>
+                    <span class="newCashIn cell">Cash In</span>
+                    <div id="newchashin" style="color:red; font-size: 30px;font-weight: bold;">0</div>
+                    <span class="newCashOut cell">CashOut</span>
+                    <div id="outCash"></div>
+                    <span class="newMobileRecharge cell">Mobile Recharge</span>
+                    <div id="Recharge"></div>
+                    <span class="newRemark cell">Remark</span>
+                    <div id="notification" style="color:red; font-size: 16px;font-weight: bold;">0</div>
+                </div>
+            </div>
+    
+        </section>
+    
+        <div class="popUp"></div>
+        <div class="cashOutDiv"></div>
+        <div class="flexilode0"></div>
+        <div class="flexilode1"></div>
+        <div class="flexilode"></div>
+    
+     <div class="susseges" style="text-align: center;margin-top: 100px;">
+		<h1 style="display: flex;align-items: center; justify-content: center; margin: auto; height: 200px; border-radius: 20px; width:400px; background-color: blue;color: yellow;font-weight: bold; font-size: 30px;">cashIn successful</h1>
+	 </div>
+     <div class="susseges1" style="text-align: center;    margin-top: 100px;">
+		<h1 style="display: flex;align-items: center; justify-content: center; margin: auto; height: 200px; border-radius: 20px; width:400px; background-color:green;color: yellow;font-weight: bold; font-size: 30px;">Cash Out successful</h1>
+	 </div>
+     <div class="susseges2" style="text-align: center;    margin-top: 100px;">
+		<h1 style="display: flex;align-items: center; justify-content: center; margin: auto; height: 200px; border-radius: 20px; width:400px; background-color:green;color: yellow;font-weight: bold; font-size: 30px;">Mobile Recharge successful</h1>
+	 </div>
+      
+      </div>
+
+      
+      <script src="js/app.js"></script>
+      <script src="app/cashOutMain.js"></script>
+      <script src="flexilode/flexilode.js"></script>
+</body>
+</html>
